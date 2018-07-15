@@ -2,10 +2,36 @@
 <html>
 <head>
 <title>Pokemon JSON demo</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="script.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 <body>
-  <p>hello world</p>
+  <form>
+    <select name="Version" id="Version-Select" onchange="selectVersion()">
+      <option value="default">Select Version</option>
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="yellow">Yellow</option>
+      <option value="silver">Silver</option>
+      <option value="gold">Gold</option>
+      <option value="crystal">Crystal</option>
+    </select>
+    <br><br>
+  <select name="Location" id="Location-Select" onchange="selectLocation()">
+    <option value="default">Select Area</option>
+
+  </select>
+  <div id="Area-Select">
+    
+  </div>
+  <br><br>
+  <input type="submit">
+</form>
+<div id="demo"></div>
+
+<script src="script.js"></script>
 </body>
 </html>

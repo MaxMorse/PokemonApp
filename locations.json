@@ -1,0 +1,30 @@
+{
+  "locations": [
+    {
+      "name": "Mt. Moon 1F",
+      "pokemon": [
+        "Zubat", "Geodude", "Paras", "Clefairy", "Sandshrew"
+      ],
+      "encounters": [
+        {
+          "pokemon": "Zubat",
+          "method": "Walking",
+          "version": "Red",
+          "rate": 0.79
+        }
+      ]
+
+    },
+    {
+      "name": "Mt. Moon B1F",
+      "pokemon": ["Zubat", "Geodude", "Paras", "Clefairy" ]
+    },
+    {
+      "name": "Mt. Moon B2F",
+      "pokemon": ["Zubat", "Geodude", "Paras", "Clefairy"]
+    }
+
+  ]
+
+
+}
