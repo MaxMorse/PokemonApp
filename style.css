@@ -1,0 +1,9 @@
+#location-select-control {
+  display: none;
+}
+#area-select-control {
+  display: none;
+}
+.container {
+  max-width: 900px;
+}
